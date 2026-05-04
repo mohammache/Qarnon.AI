@@ -1,0 +1,62 @@
+[
+  {
+    "category": "translation",
+    "prompt": "Translate to Darija: I don't understand what you're saying.",
+    "output": "mam3reftich ach kat9Sed."
+  },
+  {
+    "category": "translation",
+    "prompt": "Translate this Darija sentence to English: واش عندك شي حاجة تاكل؟",
+    "output": "Do you have anything to eat?"
+  },
+  {
+    "category": "grammar",
+    "prompt": "Conjugate the Darija verb \"kla\" in present tense for homa (they).",
+    "output": "kaykliw"
+  },
+  {
+    "category": "grammar",
+    "prompt": "What is the feminine form of \"kbir\" in Darija?",
+    "output": "kbira"
+  },
+  {
+    "category": "normalization",
+    "prompt": "Normalize this Darija spelling to its canonical form: wahd",
+    "output": "wahd"
+  },
+  {
+    "category": "vocabulary",
+    "prompt": "What does \"bzzaf\" mean in English?",
+    "output": "buzzard"
+  },
+  {
+    "category": "cultural",
+    "prompt": "What does this Moroccan expression mean? \"safi thnna\"",
+    "output": "I'm fine"
+  },
+  {
+    "category": "cultural",
+    "prompt": "What does this Moroccan proverb mean? \"SSari7a ra7a\"",
+    "output": "This Moroccan proverb \"SSari7a ra7a\" means: A simple life is a happy life."
+  },
+  {
+    "category": "cultural",
+    "prompt": "Write a Moroccan Darija message wishing someone a happy Eid.",
+    "output": "mohim, 3afak t9der t3reD bzzaf o t3tir l7al l7ayat dyalk, kantmenna lik tahDer m3a 3ndk 3la 7alik o ttaSawwef o t3jeb l7ayat dyalk."
+  },
+  {
+    "category": "communication",
+    "prompt": "Write a polite message in Moroccan Darija mixed with French to ask a professor to reschedule a meeting.",
+    "output": "Salam Professeur,\nJe vous écris pour vous demander de bien vouloir reprogrammer notre prochaine rencontre. Je suis actuellement en déplacement professionnel à Casablanca et je ne serai pas disponible pour la date prévue.\nJe comprends que vous avez une multitude d’engagements et je vous serais très reconnaissant si vous pouviez trouver un autre moment qui convienne à votre emploi du temps.\nJe vous remercie par avance pour votre compréhension et reste à votre disposition pour toute information complémentaire.\nCordialement,\n[Your Name]"
+  },
+  {
+    "category": "communication",
+    "prompt": "Identify the French words in: كنخدم f un projet très important u ghadi nkun occupé had l-week.",
+    "output": "French elements found: \"u\", \"ghadi\", \"nkun\", \"occupé\", \"had\""
+  },
+  {
+    "category": "communication",
+    "prompt": "What language is this? راك كيفاش كنقولك دايما بلي خاصك تمشي بكري",
+    "output": "Arabic"
+  }
+]

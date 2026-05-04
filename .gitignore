@@ -1,0 +1,8 @@
+dataset/hespress_comments_raw.jsonl
+dataset/tatoeba_ary_raw.json
+kaggle.json
+kaggle_upload_staging/
+*.bz2
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,12 @@
+{
+  "total": 55140,
+  "train": 49626,
+  "val": 5514,
+  "val_ratio": 0.1,
+  "sources": {
+    "darija_foundation": 47311,
+    "tatoeba_ary": 510,
+    "hespress_instructions": 7319
+  },
+  "avg_messages_per_example": 3
+}
