@@ -1,5 +1,15 @@
 # MoroccoTone — Fine-tuning an LLM for Moroccan Darija and Culturally Appropriate Communication
 
+<p align="center">
+  <img src="assets/qwen.png" height="40" alt="Qwen"/>
+  &nbsp;&nbsp;
+  <img src="assets/huggingface.png" height="40" alt="HuggingFace"/>
+  &nbsp;&nbsp;
+  <img src="assets/kaggle.png" height="40" alt="Kaggle"/>
+  &nbsp;&nbsp;
+  <img src="assets/unsloth.png" height="40" alt="Unsloth"/>
+</p>
+
 This project is a proof of concept that we can fine-tune an open LLM to better handle Moroccan Darija, code-switching (Darija + French + Arabic), and culturally appropriate communication — with limited resources.
 
 I am not trying to build "a Moroccan LLM". The goal is more specific: adapt an existing instruction-tuned model so it behaves more naturally in a Moroccan context.
@@ -102,24 +112,7 @@ Config:
 
 **Results (1 epoch, 3,102 steps, 8.5h on T4):**
 
-| Step | Val Loss |
-|------|----------|
-| 200  | 0.804    |
-| 400  | 0.765    |
-| 600  | 0.737    |
-| 800  | 0.712    |
-| 1000 | 0.695    |
-| 1200 | 0.676    |
-| 1400 | 0.659    |
-| 1600 | 0.643    |
-| 1800 | 0.629    |
-| 2000 | 0.617    |
-| 2200 | 0.608    |
-| 2400 | 0.599    |
-| 2600 | 0.594    |
-| 2800 | 0.591    |
-| 3000 | 0.590    |
-| 3102 | **0.590** |
+![Validation Loss Curve](assets/val_loss_curve.png)
 
 Val loss dropped from 0.804 → 0.590 with no overfitting (val consistently below train loss throughout).
 
