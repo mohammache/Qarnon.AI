@@ -1,4 +1,4 @@
-# MoroccoTone — Fine-tuning an LLM for Moroccan Darija and Culturally Appropriate Communication
+# QarnonAI — مساعد ذكي بالدارجة المغربية
 
 <p align="center">
   <img src="assets/qwen.png" height="40" alt="Qwen"/>
