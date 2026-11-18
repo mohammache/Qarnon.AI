@@ -116,7 +116,7 @@ Config:
 
 Val loss dropped from 0.804 → 0.590 with no overfitting (val consistently below train loss throughout).
 
-LoRA adapter: 173 MB. Available on HuggingFace: [elgorrimmohamed/MoroccoTone-Qwen2.5-7B-LoRA](https://huggingface.co/elgorrimmohamed/MoroccoTone-Qwen2.5-7B-LoRA)
+LoRA adapter: سيتم توفير نسخة النموذج الخاصة بهذا المشروع لاحقاً.
 
 **Quick inference test:**
 
@@ -160,11 +160,11 @@ These gaps are known and documented. The model is v0.1 — translation and gramm
 
 ---
 
-## Model
+## Model and Dataset
 
-Fine-tuned model on HuggingFace: [MedGm/MoroccoTone-Qwen2.5-7B](https://huggingface.co/MedGm/MoroccoTone-Qwen2.5-7B)
+This is an independent development fork based on the MoroccanLLM project.
 
-Dataset on Kaggle: [elgorrimmohamed/moroccoone-darija-instruction-dataset](https://www.kaggle.com/datasets/elgorrimmohamed/moroccoone-darija-instruction-dataset)
+The model and dataset links will be added after creating a new trained version.
 
 ---
 
@@ -175,3 +175,19 @@ Dataset on Kaggle: [elgorrimmohamed/moroccoone-darija-instruction-dataset](https
 - More vocabulary meaning examples (current adverbs file is only 47 rows)
 - Better French/Darija boundary detection training data
 - Second training run after dataset improvements
+
+- ## QarnonAI
+
+QarnonAI is an experimental Moroccan Darija AI project designed to understand and generate Moroccan Darija, Arabic, and French.
+
+The model will be customized for useful Moroccan applications such as information, education, and customer support.
+
+## Project Status
+
+This project is currently under development. A new fine-tuned model will be published after preparing the training data and completing the training process.
+
+## Credits
+
+This project is based on the open-source MoroccanLLM project:
+https://github.com/MedGm/MoroccanLLM
+
